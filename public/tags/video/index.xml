@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on The Unicorn Developer</title>
+    <link>/tags/video/</link>
+    <description>Recent content in Video on The Unicorn Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 25 Jun 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Post with a Video</title>
+      <link>/posts/video-post/</link>
+      <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/video-post/</guid>
+      <description> Video embeds are responsive and scale with the width of the main content block with the help of FitVids.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
