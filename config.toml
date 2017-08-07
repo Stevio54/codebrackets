@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "http://codebrackets.com"
 languageCode = "en-gb"
 title = "The Unicorn Developer"
 theme = "hpstr"
