@@ -1,6 +1,6 @@
 baseurl = "http://codebrackets.com"
 languageCode = "en-gb"
-title = "The Unicorn Developer"
+title = "Code Brackets"
 theme = "hpstr"
 pluralizelisttitles = false
 PygmentsCodeFences = true
@@ -8,14 +8,12 @@ Paginate = 5
 disqusShortname = "cloudbrackets"
 
 [params]
-	subtitle = "An elegant, responsive theme for Hugo"
+	subtitle = "A repository for Cloud Programming, musings, and nerdy fun"
 	[params.author]
-		name = "HPSTR"
-		avatar = "/images/avatar.jpg"
-		bio = "An elegant, responsive theme for Hugo"
-		github = "dldx/hpstr-hugo-theme"
+		name = "Steven Carnes"
+		avatar = "/images/me.jpg"
+		bio = "Sr Cloud Programmer, Nintendo Nerd, Cloud technologies enthusiast"
+		github = "Stevio54"
 	[params.image]
 	  feature = "/images/abstract-1.jpg"
-	  credit = "dargadgetz"
-	  creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
 
