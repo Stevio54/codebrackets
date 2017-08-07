@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Highlighting on The Unicorn Developer</title>
+    <link>http://codebrackets.com/tags/highlighting/</link>
+    <description>Recent content in Highlighting on The Unicorn Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 16 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://codebrackets.com/tags/highlighting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syntax Highlighting Post</title>
+      <link>http://codebrackets.com/posts/code-highlighting-post/</link>
+      <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://codebrackets.com/posts/code-highlighting-post/</guid>
+      <description>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.1
+Highlighted Code Blocks To modify styling and highlight colors edit /static/css/_sass/_syntax.</description>
+    </item>
+    
+    <item>
+      <title>Syntax Highlighting Post</title>
+      <link>http://codebrackets.com/posts/my-first-post/</link>
+      <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://codebrackets.com/posts/my-first-post/</guid>
+      <description>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.1
+Highlighted Code Blocks To modify styling and highlight colors edit /static/css/_sass/_syntax.</description>
+    </item>
+    
+  </channel>
+</rss>
