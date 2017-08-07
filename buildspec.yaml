@@ -1,0 +1,13 @@
+version: 0.1
+   
+phases:
+  install:
+    commands:
+      - wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb
+      - sudo dpkg -i hugo*.deb
+  build:
+    commands:
+      - echo "******** Building Hugo site ********"
+      - hugo build
+      - echo "******** Uploading to S3 ********"
+      - aws s3 sync public/ s3://cloudbrackets.com
