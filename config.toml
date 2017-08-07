@@ -16,4 +16,5 @@ disqusShortname = "cloudbrackets"
 		github = "Stevio54"
 	[params.image]
 	  feature = "/images/clouds.jpg"
+	  logo = "/images/logo.png"
 

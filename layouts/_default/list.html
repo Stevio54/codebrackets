@@ -11,8 +11,28 @@
   {{ end }}
   <div class="header-title">
     <div class="header-title-wrap">
-		<h1><a href="/" title="Go to the homepage">{{ .Site.Title }}</a></h1>
-	  <h2>{{ if .IsHome }}
+		<h1>
+      <a href="/" title="Go to the homepage">
+        {{ $imageparams := index ($.Scratch.Get "Params") "image" }}
+        <!-- <img src="{{ $imageparams.logo | relURL }}" alt="{{ .Title }}"> -->
+       <table style="width: inherit;margin: 0 auto;text-shadow: 2px 2px 20px #000;">
+        <tbody><tr>
+            <td style="font-size: 150px;">{</td>
+            <td>
+              <table>
+                <tbody><tr><td><i class="fa fa-3x fa-cloud" aria-hidden="true" style="margin: 60px;margin-top: 79px;"></i></td></tr>                                
+              </tbody></table>
+            </td>
+            <td style="font-size: 150px;">}</td>
+          </tr>
+          <tr><td colspan="3" style="font-size: 40px;">
+            <span style="display: block;margin-top: -136px;color: lightgreen;text-shadow: 2px 2px 8px #000;font-size: 45px;">cloud brackets</span>
+          </td></tr>
+        </tbody>
+        </table> 
+      </a>
+    </h1>
+	  <h2 style="margin-top: -80px;">{{ if .IsHome }}
             {{ .Site.Params.subtitle }}
           {{ else if .IsNode }}
             {{ $pagename := (index .Site.Data.sections (lower .Title)) }}
