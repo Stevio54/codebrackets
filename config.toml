@@ -15,5 +15,5 @@ disqusShortname = "cloudbrackets"
 		bio = "Sr Cloud Programmer, Nintendo Nerd, Cloud technologies enthusiast"
 		github = "Stevio54"
 	[params.image]
-	  feature = "/images/abstract-1.jpg"
+	  feature = "/images/clouds.jpg"
 
