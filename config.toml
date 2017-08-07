@@ -1,6 +1,6 @@
-baseurl = "http://codebrackets.com"
+baseurl = "http://cloudbrackets.com"
 languageCode = "en-gb"
-title = "Code Brackets"
+title = "Cloud Brackets"
 theme = "hpstr"
 pluralizelisttitles = false
 PygmentsCodeFences = true
