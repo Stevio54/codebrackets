@@ -30,6 +30,7 @@ $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gi
 
 // Magnific-Popup options
 $(document).ready(function() {
+  console.log("loading..");
   $('.image-popup').magnificPopup({
     type: 'image',
     tLoading: 'Loading image #%curr%...',

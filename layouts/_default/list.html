@@ -11,26 +11,26 @@
   {{ end }}
   <div class="header-title">
     <div class="header-title-wrap">
-		<h1>
+		<h1 style="margin: 0 auto;">
       <a href="/" title="Go to the homepage">        
        <table style="width: inherit;margin: 0 auto;text-shadow: 2px 2px 20px #000;">
         <tbody><tr>
-            <td style="font-size: 150px;">{</td>
+            <td style="font-size: 8rem;">{</td>
             <td>
               <table>
-                <tbody><tr><td><i class="fa fa-3x fa-cloud" aria-hidden="true" style="margin: 60px;margin-top: 79px;"></i></td></tr>                                
+                <tbody><tr><td><i class="fa fa-3x fa-cloud" aria-hidden="true" style="margin: 5rem; font-size: 10rem !important;"></i></td></tr>                                
               </tbody></table>
             </td>
-            <td style="font-size: 150px;">}</td>
+            <td style="font-size: 8rem;">}</td>
           </tr>
           <tr><td colspan="3" style="font-size: 40px;">
-            <span style="display: block;margin-top: -136px;color: lightgreen;text-shadow: 2px 2px 8px #000;font-size: 45px;">cloud brackets</span>
+            <span class="sub-title" style="display: block;margin-top: -10rem;color: lightgreen;text-shadow: 2px 2px 8px #000;font-size: 3rem;">cloud brackets</span>
           </td></tr>
         </tbody>
         </table> 
       </a>
     </h1>
-	  <h2 style="margin-top: -80px;">{{ if .IsHome }}
+	  <h2 style="margin: 0 auto; margin-top: -5rem !important;font-size: 1rem; width: 26rem;">{{ if .IsHome }}
             {{ .Site.Params.subtitle }}
           {{ else if .IsNode }}
             {{ $pagename := (index .Site.Data.sections (lower .Title)) }}
