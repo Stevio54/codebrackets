@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Post with a Background Image
 description: "Sample post with a background image CSS override."
 tags: [sample post]
 date: 2013-10-26
+draft: true
 background: /images/triangular.png
 ---
 
