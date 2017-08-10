@@ -6,7 +6,7 @@
 {{ $imageparams := index ($.Scratch.Get "Params") "image" }}
 	{{ if $imageparams.credit }}<div class="image-credit">Image credit: <a {{ with $imageparams.creditlink }}href="{{ . }}"{{ end }}>{{ $imageparams.credit }}</a></div><!-- /.image-credit -->{{ end }}
     <div class="entry-image">
-      <img src="{{ $imageparams.feature | relURL }}" alt="{{ .Title }}">
+      <img src="{{ "/images/clouds.jpg" | relURL }}" alt="{{ .Title }}">
     </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
   {{ end }}
@@ -30,6 +30,7 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
+      <h2>{{ .Params.Subtitle }}</h2>
       {{ .Content }}
       <footer class="entry-meta">
           {{ if ne .Type "page" }}

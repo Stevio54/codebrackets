@@ -6,14 +6,14 @@
 {{ $imageparams := index ($.Scratch.Get "Params") "image" }}
 	{{ if $imageparams.credit }}<div class="image-credit">Image credit: <a href="{{ $imageparams.creditlink }}">{{ $imageparams.credit }}</a></div><!-- /.image-credit -->{{ end }}
     <div class="entry-image">
-      <img src="{{ $imageparams.feature | relURL }}" alt="{{ .Title }}">
+       <img src="{{ "/images/clouds.jpg" | relURL }}" alt="{{ .Title }}">
     </div><!-- /.entry-image -->
   {{ end }}
   <div class="header-title">
     <div class="header-title-wrap">
 		<h1 style="margin: 0 auto;">
       <a href="/" title="Go to the homepage">        
-       <table style="width: inherit;margin: 0 auto;text-shadow: 2px 2px 20px #000;">
+       <table style="width: inherit;margin: 0 auto;text-shadow: 2px 2px 20px #000; margin-top: -4rem !important;">
         <tbody><tr>
             <td style="font-size: 8rem;">{</td>
             <td>
@@ -50,9 +50,9 @@
 {{ range where .Paginator.Pages "Type" "!=" "page" }}
 <article class="hentry">
   <header>
-    {{ if .Params.image.feature }}
+    {{ if .Params.image.headimage }}
       <div class="entry-image-index">
-		  <a href="{{ .RelPermalink }}" title="{{ .Title }}"><img src="{{ .Params.image.feature | relURL }}" alt="{{ .Title }}"></a>
+		   <a href="{{ .RelPermalink }}" title="{{ .Title }}"><img src="{{ .Params.image.headimage | relURL }}" alt="{{ .Title }}"></a> 
       </div><!-- /.entry-image -->
     {{ end }}
     <div class="entry-meta">

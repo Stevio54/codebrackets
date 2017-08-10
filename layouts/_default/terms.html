@@ -1,17 +1,29 @@
 {{ partial "head.html" . }}
-<body id="post-index" {{ if isset ($.Scratch.Get "Params") "image" }}class="feature"{{ end }}>
+<body id="post-index" class="feature">
 {{ partial "navigation.html" . }}
 <div class="entry-header">
-  {{ if isset ($.Scratch.Get "Params") "image" }}
-{{ $imageparams := index ($.Scratch.Get "Params") "image" }}
-	{{ if $imageparams.credit }}<div class="image-credit">Image credit: <a href="{{ $imageparams.creditlink }}">{{ $imageparams.credit }}</a></div><!-- /.image-credit -->{{ end }}
-    <div class="entry-image">
-      <img src="{{ $imageparams.feature | absURL }}" alt="{{ .Title }}">
+  <div class="entry-image">
+      <img src="{{ "/images/clouds.jpg" | relURL }}" alt="{{ .Title }}">
     </div><!-- /.entry-image -->
-  {{ end }}
   <div class="header-title">
     <div class="header-title-wrap">
-		<h1><a href="/" title="Go to the homepage">Function(Cloud) {}</a></h1>
+    <h1 style="margin: 0 auto;"><a href="/" title="Go to the homepage">
+    <table style="width: inherit;margin: 0 auto;text-shadow: 2px 2px 20px #000; margin-top: -4rem !important;">
+        <tbody><tr>
+            <td style="font-size: 8rem;">{</td>
+            <td>
+              <table>
+                <tbody><tr><td><i class="fa fa-3x fa-cloud" aria-hidden="true" style="margin: 5rem; font-size: 10rem !important;"></i></td></tr>                                
+              </tbody></table>
+            </td>
+            <td style="font-size: 8rem;">}</td>
+          </tr>
+          <tr><td colspan="3" style="font-size: 40px;">
+            <span class="sub-title" style="display: block;margin-top: -10rem;color: lightgreen;text-shadow: 2px 2px 8px #000;font-size: 3rem;">cloud brackets</span>
+          </td></tr>
+        </tbody>
+        </table> 
+    </a></h1>
 	  <h2>{{ .Title }}</h2>
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->

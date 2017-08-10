@@ -30,6 +30,18 @@ body {
     }
 }
   
+h3.underline {
+	  width: 95% !important;
+    border-bottom: 1px solid #dadce2 !important;
+}
+
+.stretch_image {
+  max-height: 100px;
+}
+.stretch_image img {
+  width: 100%;
+  height: 100%;
+}
 /* 
    Colors
    ========================================================================== */
