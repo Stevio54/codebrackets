@@ -20,25 +20,17 @@ As a part of my journey tackling the large array of tools, CMPs (Cloud Managemen
 
 My goal, is to share with all of you these nuggets of knowledge as I come by them, and hopefully they will prove useful.
 
-### What kind of posts can you expect?
+### Do I like walks on the beach?
 ---
-I am currently building automation in the <abbr title="vRealize Orchestration">vRO</abbr>/<abbr title="vRealize Automation">vRA</abbr> as well as <abbr title="Amazon Web Services">AWS</abbr> space for a major utility and through this work, I have been able to build some really cool things. I want to share my journey through each these builds with you. Some examples of this work can be found below:
+I consider myself a bleeding-edge kind of developer. I am interested in continued education and learning new things as often as I possibly can.
 
+I love walks on the beach, as long as it doesn't take away from any of my time playing video games, cooking, or reading nerd literature!
 
-- **Load Balancer As A Service**
-<div class="well">
-By making use of the HTTP-REST plugin for <abbr title="vRealize Orchestration">vRO</abbr> I was able to build a Catalog Item that makes it simple for my clients to request a load balancing setup in a snap.
-</div>
+I am a huge Nintendo Collector, and below is an image of my small starter collection now:
 
-- **DNS A Record Creation** and **CNAME Creation** 
-<div class="well">
-These are also workflows in <abbr title="vRealize Orchestration">vRO</abbr>/<abbr title="vRealize Automation">vRA</abbr>. These workflows communicated with our <abbr title="IP Address Management">IPAM</abbr> solution to build out DNS entries. 
-</div>
+![nintendo](/images/nintendo.jpg)
 
-- **AWS Tagging Notifications** 
-<div class="well">
-This was build into our AWS offering by combining Lambda's, Workmail, AWS Config, and CloudTrail logging. This was built to notify our users when they built S3 Buckets or EC2 Instances without required tagging.
-</div>
+My collection does sit in the living room as my awesome wife loves to decorate nerdy as well. You can say we keep the nerd meter at maximum in my house :)
 
 ### How can we contact you? What are your deets?
 ---
@@ -50,6 +42,6 @@ I hope to also learn from each of you so we can collaborate on future knowledge.
 
 ### What is next?
 ---
-In the coming weeks, I plan to start by blogging about three examples listed above, as well as anything else I run into in my continued journey.
+In the coming weeks, I plan to start by blogging about some of the projects I have built in the past, as well as some that are coming along in the near future. You can also keep an eye out for any other small nuggets of information I will share when it become available as well!
 
 I hope to see you there!

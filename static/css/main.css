@@ -28,7 +28,11 @@ body {
     html {
       font-size: 20px !important;
     }
+    .entry-content {
+      font-size: 0.8rem !important;
+    }
 }
+
   
 h3.underline {
 	  width: 95% !important;
