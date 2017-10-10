@@ -1,6 +1,10 @@
 ---
 title: "Async vs Callback"
 date: 2017-10-09T19:15:18-07:00
+tags: [cloud programmer,async,callback,promise,node,js,typescript,whoami,about]
+image:
+  feature: "/images/clouds.jpg"
+  headimage: "/images/CloudIdeas.png"
 draft: true
 ---
 
