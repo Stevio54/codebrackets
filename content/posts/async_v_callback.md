@@ -12,7 +12,7 @@ draft: true
 
 ### Hello Everyone!
 
-While working with a good friend on some Node JS code we ran into an interesting issue. Do we use **async...await** in our code or make use of the **promise..callback** model when we pull data from another server?
+While working with my good friend [@Codydearkland](https://twitter.com/Codydearkland) on some Node JS code we ran into an interesting issue. Do we use **async...await** in our code or make use of the **promise..callback** model when we pull data from another server?
 
 #### What are async...await and promise...callback?
 
