@@ -6,6 +6,7 @@ pluralizelisttitles = false
 PygmentsCodeFences = true
 Paginate = 5
 disqusShortname = "cloudbrackets"
+googleAnalytics = "UA-107832102-1"
 
 [params]
 	subtitle = "A repository for Cloud Programming, musings, and nerdy fun"
